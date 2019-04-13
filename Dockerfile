@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM gitpod/workspace-full
 
 # Install RethinkDB.
 RUN \
